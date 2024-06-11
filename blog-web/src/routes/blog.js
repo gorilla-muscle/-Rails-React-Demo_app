@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 import { Link } from "react-router-dom";
 
-function App() {
+function Blog() {
   return (
-    <div style={{ margin: "auto", width: "1000px"}}>
-      <h1>ブログアプリ</h1>
+    <div style={{ margin: "auto", width: "1000px" }}>
+      <h1>ブログ詳細画面</h1>
+      <div>
+        <Link to="/">TOP画面</Link>
+      </div>
       <div>
         <Link to="/blogs">記事一覧画面</Link>
       </div>
@@ -16,4 +17,4 @@ function App() {
   );
 }
 
-export default App;
+export default Blog;
