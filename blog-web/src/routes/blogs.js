@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react"
-import { axiosINstance } from "../utils/axios.js";
+import { axiosInstance } from "../utils/axios.js";
 
 
 function Blogs() {
